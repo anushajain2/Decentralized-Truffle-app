@@ -1,6 +1,6 @@
 pragma solidity ^0.4.22;
 
-contract Skell {
+contract Reskill {
   uint256 value;
 
   event NewValueSet(uint256 indexed _value, address _sender);
@@ -45,5 +45,4 @@ contract Skell {
     skillForToken[_tokenId] = _skill;
     levelForToken[_tokenId] = _level;
   }
-
 }

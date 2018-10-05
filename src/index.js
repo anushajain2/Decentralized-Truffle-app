@@ -77,4 +77,3 @@ const Index = class Index extends React.Component {
 }
 
 ReactDOM.render(<Index />, document.getElementById('root'))
-
